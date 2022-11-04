@@ -21,14 +21,14 @@
     display: flex;
     gap: 60px;
     font-family: 'Sarala', sans-serif;
-    color: wheat;
+    color: white;
     font-weight: 400;
     font-size: 30px;
 }
 
 .conteudo{
     margin-bottom: 48px;
-    border-top: 0.4px solid wheat;
+    border-top: 0.4px solid white;
 }
 
 .principal{
@@ -48,7 +48,7 @@
     font-family: 'Righteous', sans-serif;
     font-weight: 400;
     font-size: 64px;
-    color: wheat;
+    color: white;
 }
 .strongtitolo{
     color: #3531FF;
@@ -58,7 +58,7 @@
     font-family: 'sarala' sans-serif;
     font-weight: 400;
     font-weight: 25px;
-    color: wheat;
+    color: white;
 }
 
 .principal-botao{
@@ -70,8 +70,12 @@
     border-radius: 20px;
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
-    color: wheat;
+    color: white;
     font-size: 24px;
+}
+
+.principal-botao:hover {
+    background-color: rgba(95, 95, 95, 0.53);
 }
 
 .principal-imagem {
@@ -84,4 +88,34 @@
     align-items: center;
     gap: 24px;
     margin-top: 48px;
+}
+
+.principal2-titolo {
+    border-top: 0.4px solid white;
+    padding-top: 48px;
+    font-family: 'Righteous, cursive';
+    font-weight: 400;
+    font-size: 24px ;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.principal2-texto{
+    font-weight: 300;
+    font-family: 'sarala' sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+.footer{
+    border-top: 0.4px solid white;
+    padding: 32px;
+}
+
+.footertext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Righteous,' cursive;
+    color: #3531FF;
 }
